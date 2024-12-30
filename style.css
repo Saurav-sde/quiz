@@ -86,4 +86,34 @@ h1 {
     padding: 10px;
     border-top: 1px solid #ccc;
  }
+
+
+@media (max-width: 500px ) {
+    body {
+        margin: 10px;
+    }
+    .container {
+        max-width: 100%;
+        padding: 15px;
+        margin: 0 5px;
+    }
+    h5 {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .submit-btn, #restartBtn {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .result {
+        font-size: 16px;
+    }
+    .button-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
  
